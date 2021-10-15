@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "node ./solution/index.js",
+    "test": "node ./solution/example.js"
+  },
+  "type": "module"
+}
