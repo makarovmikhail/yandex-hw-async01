@@ -1,6 +1,6 @@
 import rd from "./index.cjs";
 
-import("../playground.js").then(() => {
+import("./playground.js").then(() => {
   const asyncArray = new Homework.AsyncArray([1, 2, 3, 4]);
   const reducerSum = (acc, curr, i, src, cb) => Homework.add(acc, curr, cb);
   const reducerSub = (acc, curr, i, src, cb) =>
