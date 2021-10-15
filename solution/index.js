@@ -1,5 +1,6 @@
 // solution/index.js
-module.exports = function (Homework) {
+export default function (Homework) {
+
   const promisify = async (fn, a, b) => {
     return new Promise(function (resolve, reject) {
       if ((a || a == 0) && (b || b == 0)) {
