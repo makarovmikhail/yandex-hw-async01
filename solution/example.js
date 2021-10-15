@@ -1,4 +1,4 @@
-import rd from "./index.js";
+import rd from "./index.cjs";
 
 import("../playground.js").then(() => {
   const asyncArray = new Homework.AsyncArray([1, 2, 3, 4]);
