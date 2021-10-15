@@ -1,4 +1,3 @@
-// solution/index.js
 module.exports = function (Homework) {
   const promisify = async (fn, a, b) => {
     return new Promise(function (resolve, reject) {
@@ -19,7 +18,6 @@ module.exports = function (Homework) {
   };
 
   return async (array, fn, initialValue, cb) => {
-    // асинхронный reduce
     let value = initialValue;
     let index = 0;
     const arrayLenght = await promisify(array.length);
